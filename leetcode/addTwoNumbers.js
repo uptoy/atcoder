@@ -24,6 +24,7 @@ function main() {
   addTwoNumbers(l1, l2)
 }
 
+// ???
 main()
 
 function addTwoNumbers(l1, l2) {
@@ -51,5 +52,5 @@ function addTwoNumbers(l1, l2) {
     if (p2) p2 = p2.next
   }
   if (carry) current.next = new NodeList(carry)
-  return solution.next
+  return solution
 }
